@@ -1,0 +1,25 @@
+
+
+
+<div class="container">
+    
+    <div class="new">
+            
+     <div class="content">
+         <p class="title" >TEMPERATURE: {{this.mqttService.temperature}}</p>
+         <span class="value"></span>
+       </div>
+       <div class="content">
+         <p class="title">HUMIDITY : {{this.mqttService.humidity}}</p>
+       </div>
+       <div>
+         <button (click)="controlLight('ON')" style="background-color: green;margin: 5px;">Turn on LED</button>
+         
+         <button (click)="controlLight('OFF')"style="background-color:red;">Turn off LED</button>
+     </div> 
+    </div>
+          
+        
+     
+   </div>
+ 

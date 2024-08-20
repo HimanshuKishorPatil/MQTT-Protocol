@@ -1,0 +1,37 @@
+
+
+
+.container{
+    color: white;
+    background-image: url(../../assets/img/pngtree-blue-digital-technology-electronic-banner-image_168524.jpg);
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 40px;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font:bold;
+font-size: large;
+
+}
+button{
+    height: 5vh;
+    border-color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    
+}
+button:hover{
+    opacity: 0.7;
+    
+    size: 2px;
+}
+
+
+
+
+
+
+
